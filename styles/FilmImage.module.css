@@ -1,0 +1,9 @@
+.image {
+    width: 100%;
+}
+
+.imageContainer {
+    width: 120px;
+    float: left;
+    margin: 0 1rem;
+}
