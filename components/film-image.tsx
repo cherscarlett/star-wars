@@ -22,7 +22,7 @@ const FilmImage: FC<Props> = ({query, id}) => {
     return (
         <div className={styles.imageContainer}>  
             {image &&
-                <img className={styles.image} src={image} />
+                <img className={styles.image} src={image} alt="Movie poster" />
             }
         </div>
     )
